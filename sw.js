@@ -1,6 +1,6 @@
 // Service worker : réseau d'abord (pour recevoir les mises à jour), cache en secours (hors ligne).
-const CACHE = "helvetia-20261007110725";
-const SHELL = ["./", "index.html", "app.js?v=20261007110725", "styles.css?v=20261007110725", "content.json", "content.bin", "manifest.webmanifest", "icons/icon-192.png", "icons/apple-touch-icon.png"];
+const CACHE = "helvetia-20261007111404";
+const SHELL = ["./", "index.html", "app.js?v=20261007111404", "styles.css?v=20261007111404", "content.json", "content.bin", "manifest.webmanifest", "icons/icon-192.png", "icons/apple-touch-icon.png"];
 
 self.addEventListener("install", (e) => {
   // activation immédiate : comme tout est servi « réseau d'abord », il n'y a pas d'ancienne version à protéger
